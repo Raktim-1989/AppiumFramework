@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="175133" started-at="2022-02-24T15:37:00 IST" finished-at="2022-02-24T15:39:55 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="175133" started-at="2022-02-24T15:37:00 IST" finished-at="2022-02-24T15:39:55 IST">
+      <class name="Appium.AppiumFramework.APiDemoTest">
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:Appium.AppiumFramework.APiDemoTest@6fb0d3ed]" name="apiDemo" duration-ms="50888" started-at="2022-02-24T15:38:15 IST" data-provider="InputData" finished-at="2022-02-24T15:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:Appium.AppiumFramework.APiDemoTest@6fb0d3ed]" name="apiDemo" duration-ms="48811" started-at="2022-02-24T15:39:06 IST" data-provider="InputData" finished-at="2022-02-24T15:39:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- Appium.AppiumFramework.APiDemoTest -->
+      <class name="Appium.AppiumFramework.GeneralStoreAppTest">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:Appium.AppiumFramework.GeneralStoreAppTest@5d11346a]" name="killAllNodes" is-config="true" duration-ms="3038" started-at="2022-02-24T15:37:00 IST" finished-at="2022-02-24T15:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:Appium.AppiumFramework.GeneralStoreAppTest@5d11346a]" name="totalValidation" duration-ms="72274" started-at="2022-02-24T15:37:03 IST" finished-at="2022-02-24T15:38:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- Appium.AppiumFramework.GeneralStoreAppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
